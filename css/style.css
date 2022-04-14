@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "bootstrap-icons";
+    src: url("../fonts/fonts/bootstrap-icons.woff") format("woff"),
+        url("../fonts/fonts/bootstrap-icons.woff2") format("woff2");
+
+}
+@font-face {
+    font-family: 'vazie';
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.ttf') format('truetype'),
+        url('../fonts/vazir.woff2') format('woff2'),
+        url('../fonts/vazir.woff') format('woff'),
+}
+
+* {
+    outline: none!important;
+}
+
+body {
+    background:linear-gradient(rgba(153, 158, 158, 0.5),rgba(248, 57, 207, 0.3)) ,url('../images/Pcloud.png') center/cover no-repeat;
+    overflow-x: hidden;
+    height: 100vh;
+
+}
+.warm{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url(../images/warm.jpg) center;
+    width: 55vw;
+    height: 48vh;
+}
+#main_container{
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(../images/relax.jpg) center/cover no-repeat;
+    width: 55vw;
+    height: 48vh;
+    border: 3px solid rgb(10, 9, 10);
+    border-radius: 5px;
+    box-shadow: 8px -10px 5px 10px rgba(253, 253, 251, 0.699);
+}
+#wrong_message{
+    font-size: 1rem;
+}
+ .icon i{
+     opacity: .5;
+ }

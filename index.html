@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/all.js"></script>
+    <title>آب و هوا</title>
+
+</head>
+
+<body class="d-flex flex-wrap justify-content-center align-items-center">
+    <div class="warm mt-2 rounded-3 text-center">
+        <p class="fs-1 fw-bolder text-danger">warning</p>
+        <p class="fs-1 text-warning">The ground is not good now</p>
+
+    </div>
+    <div id="main_container" class="col-lg-6 col-sm-10">
+        <h1 class="titr text-center fw-bold text-warning">Aerology Reports</h1>
+        <h6 id="date" class="text-center fs-6 fw-bold text-light"></h6>
+        <h6 id="zoneDate" class="text-center fs-6 fw-bold text-light"></h6>
+        <div class="text-center">
+            <input type="text" id="cityName" class="col-lg-7 col-sm-10 text-dark rounded-3 text-center" placeholder="Enter City Name....">
+        </div>
+        <div class="d-flex justify-content-center">
+        <h3 id="cityValue" class="fw-bolde text-danger"></h3>
+        </div>
+        <div class="d-flex justify-content-center mb-1">
+            <h4 id="report_temp" class="text-warning fs-1"></h4>
+            <p id="report_situation"></p>
+        </div>
+        <div class="d-flex flex-wrap text-warning fs-3 justify-content-between mb-1">
+            <p class="icon cloud_icon"><i class="bi-cloud"></i></p>
+            <p class="icon cloud_rain_icon"><i class="bi-cloud-rain"></i></p>
+            <p class="icon cloud_snow_icon"><i class="bi-cloud-snow"></i></p>
+            <p class="icon wind_icon"><i class="bi-wind"></i></p>
+            <p class="icon sun"><i class="bi-sun"></i></p>
+            <p class="icon cloud_fog_icon"><i class="bi-cloud-fog2"></i></p>
+            <p class="icon cloud_sun_icon"><i class="bi-cloud-sun"></i></p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
